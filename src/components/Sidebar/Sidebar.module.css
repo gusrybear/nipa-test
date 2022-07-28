@@ -1,0 +1,44 @@
+.sidebar {
+  background: #fff;
+  color: #000;
+  height: 100vh;
+  width: 350px;
+  border-right: #000 1px solid;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border-bottom: #000 1px solid;
+}
+.topSection h1 {
+  font-size: 24px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.topSection p {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  padding-left: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.5;
+}
+
+.link:hover {
+  background-color: #d9d9d9;
+}
