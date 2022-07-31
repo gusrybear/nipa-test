@@ -4,6 +4,7 @@ import nvision from "../../../node_modules/@nipacloud/nvision/dist/browser/nvisi
 
 function WebSocket() {
   // variables
+  const [detectedObject, setDetectedObject] = useState([]);
   const [resultImage, setResultImage] = useState("");
 
   const [isStarted, setIsStarted] = useState(false);
