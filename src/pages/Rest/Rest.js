@@ -3,25 +3,24 @@ import nvision from "../../../node_modules/@nipacloud/nvision/dist/browser/nvisi
 import styles from "./Rest.module.css";
 import { BsImageAlt } from "react-icons/bs";
 import styled from "styled-components";
-
+// styled-component
+const Button = styled.button`
+  background: transparent;
+  border-radius: 50%;
+  border: 0px solid black;
+  color: gray;
+  width: 60px;
+  height: 60px;
+  box-shadow: 1px 1px 5px #888888;
+  &:hover,
+  &:focus {
+    border: 3px solid black;
+  }
+  &:active {
+    background-color: #d9d9d9;
+  }
+`;
 function Rest() {
-  // styled-component
-  const Button = styled.button`
-    background: transparent;
-    border-radius: 50%;
-    border: 0px solid black;
-    color: gray;
-    width: 60px;
-    height: 60px;
-    box-shadow: 1px 1px 5px #888888;
-    &:hover,
-    &:focus {
-      border: 3px solid black;
-    }
-    &:active {
-      background-color: #d9d9d9;
-    }
-  `;
   //-->>> variables <<<--
   const [baseImage, setBaseImage] = useState("");
   const [detectedObject, setDetectedObject] = useState([]);
@@ -127,7 +126,7 @@ function Rest() {
         />
 
         <br />
-        
+
         <div className={styles.content}>{content}</div>
       </div>
     </>

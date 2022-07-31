@@ -27,7 +27,7 @@ function Sidebar({ children }) {
               to={item.path}
               key={index}
               className={styles.link}
-              activeclassName="active"
+              activeclassname="active"
             >
               <div className={styles.linkText}>{item.name}</div>
             </NavLink>

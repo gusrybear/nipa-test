@@ -1,0 +1,22 @@
+input {
+  padding: 20px;
+  width: 200px;
+  height: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cameraCard {
+  width: 806px;
+  height: 506px;
+  /* border: 3px solid black; */
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.resultCard {
+    width: 806px;
+    height: 506px;
+    padding: 3px;
+}

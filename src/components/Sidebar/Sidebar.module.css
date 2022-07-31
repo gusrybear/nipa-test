@@ -1,7 +1,8 @@
 .sidebar {
+  position: relative;
   background: #fff;
   color: #000;
-  height: 100vh;
+  height: auto;
   width: 350px;
   border-right: #000 1px solid;
 }
